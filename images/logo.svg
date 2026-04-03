@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <!-- Background Circle -->
+    <circle cx="100" cy="100" r="90" fill="#4CAF50" stroke="#FFFFFF" stroke-width="5" />
+    <!-- House Icon -->
+    <polygon points="70,100 70,130 130,130 130,100 100,70" fill="#FFFFFF"/>
+    <polygon points="60,100 60,140 140,140 140,100 100,60" fill="#4CAF50" />
+    <!-- 24/7 Text -->
+    <text x="50%" y="30%" font-size="30" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">24/7</text>
+    <!-- Water Droplets -->
+    <ellipse cx="80" cy="150" rx="5" ry="10" fill="#00BFFF" />
+    <ellipse cx="120" cy="150" rx="5" ry="10" fill="#00BFFF" />
+    <ellipse cx="100" cy="160" rx="5" ry="10" fill="#00BFFF" />
+    <!-- Business Name -->
+    <text x="50%" y="80%" font-size="20" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">Cleaning & Painting</text>
+</svg>
