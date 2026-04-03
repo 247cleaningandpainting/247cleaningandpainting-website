@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>247 Cleaning and Painting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .logo {
+            max-width: 150px;
+            height: auto;
+        }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .service {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 30%;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+            .service {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>247 Cleaning and Painting</h1>
+    </header>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo" />
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Residential Cleaning</h3>
+                <p>High-quality cleaning services for your home.</p>
+            </div>
+            <div class="service">
+                <h3>Commercial Cleaning</h3>
+                <p>Professional cleaning for offices and commercial spaces.</p>
+            </div>
+            <div class="service">
+                <h3>Interior Painting</h3>
+                <p>Transform your space with our expert painting services.</p>
+            </div>
+            <div class="service">
+                <h3>Exterior Painting</h3>
+                <p>Durable and attractive paint solutions for the outside of your property.</p>
+            </div>
+            <div class="service">
+                <h3>Staging &amp; Cleaning</h3>
+                <p>Prepare your home for sale with our staging services.</p>
+            </div>
+            <div class="service">
+                <h3>Power Washing</h3>
+                <p>High-pressure washing for driveways, decks, and more.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 247 Cleaning and Painting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
